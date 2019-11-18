@@ -44,3 +44,35 @@
 **Ссылка на документацию по команде 2:** https://git-scm.com/docs/git-push#Documentation/git-push.txt--f
 
 ***
+
+**Задача:** Переключиться на другую ветку, не делая коммит промежуточных изменений.
+
+**Команда:** `git stash`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-stash#_name
+
+***
+
+**Задача:** Посмотреть список спрятанного в stash'е.
+
+**Команда:** `git stash list`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-stash#_description
+
+***
+
+**Задача:** Извлечь определнные изменения из stash'а.
+
+**Команда:** `git stash apply stash@{номер_изменения}`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-apply--index-q--quietltstashgt
+
+***
+
+**Задача:** Удалить спрятанные изменения из stash'а.
+
+**Команда:** `git stash drop stash@{номер_изменения}`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-drop-q--quietltstashgt
+
+***
