@@ -76,3 +76,26 @@
 **Ссылка на документацию:** https://git-scm.com/docs/git-stash#Documentation/git-stash.txt-drop-q--quietltstashgt
 
 ***
+
+**Задача:** Посмотреть список удаленнх репозиториев, где можно
+делать fetch/push.
+
+**Команда:** `git remote -v`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-remote#Documentation/git-remote.txt--v
+
+***
+
+**Задача:** Удалить локальную ветку.
+
+**Команда:** `git branch -d имя_ветки`.
+
+**Ссылка на документацию:** https://git-scm.com/docs/git-branch#Documentation/git-branch.txt--d
+
+***
+
+**Задача:** Создание локальной ветки из удаленной.
+
+**Команда:** `git checkout -b [название локальной ветки] [название репозитория]/[название удаленной ветки]`.
+
+***
